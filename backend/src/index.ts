@@ -25,7 +25,7 @@ app.use(helmet());
 // CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://purple-merit-frontend.vercel.app', 'https://purple-merit.vercel.app'] 
+    ? ['https://purple-merit-frontend.vercel.app', 'https://purple-merit.vercel.app', 'https://*.vercel.app'] 
     : ['http://localhost:5173', 'http://localhost:3000'],
   credentials: true
 }));
