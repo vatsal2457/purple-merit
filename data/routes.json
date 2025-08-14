@@ -1,0 +1,62 @@
+[
+  {
+    "routeId": "1",
+    "distance_k": 25,
+    "trafficLevel": "High",
+    "baseTime": 45
+  },
+  {
+    "routeId": "2",
+    "distance_k": 12,
+    "traffic_level": "High",
+    "baseTime": 30
+  },
+  {
+    "routeId": "3",
+    "distance": 6,
+    "traffic_level": "Low",
+    "base_time_min": 65
+  },
+  {
+    "routeId": "4",
+    "distance": 15,
+    "trafficLevel": "Medium",
+    "base_time_min": 25
+  },
+  {
+    "routeId": "5",
+    "distance": 7,
+    "trafficLevel": "Medium",
+    "baseTime": 50
+  },
+  {
+    "routeId": "6",
+    "distance": 15,
+    "trafficLevel": "High",
+    "baseTime": 55
+  },
+  {
+    "routeId": "7",
+    "distance": 20,
+    "trafficLevel": "Low",
+    "baseTime": 32
+  },
+  {
+    "routeId": "8",
+    "distance": 19,
+    "trafficLevel": "Low",
+    "baseTime": 70
+  },
+  {
+    "routeId": "9",
+    "distance": 9,
+    "trafficLevel": "Low",
+    "baseTime": 20
+  },
+  {
+    "routeId": "10",
+    "distance": 22,
+    "trafficLevel": "High",
+    "baseTime": 52
+  }
+]

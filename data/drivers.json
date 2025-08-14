@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Amit",
+    "currentShiftHours": 8,
+    "pastWeekHours": 42
+  },
+  {
+    "name": "Priya",
+    "currentShiftHours": 6,
+    "pastWeekHours": 38
+  },
+  {
+    "name": "Rohit",
+    "currentShiftHours": 9,
+    "pastWeekHours": 45
+  },
+  {
+    "name": "Neha",
+    "currentShiftHours": 7,
+    "pastWeekHours": 40
+  },
+  {
+    "name": "Karan",
+    "currentShiftHours": 8,
+    "pastWeekHours": 41
+  },
+  {
+    "name": "Sneha",
+    "currentShiftHours": 5,
+    "pastWeekHours": 35
+  },
+  {
+    "name": "Vikram",
+    "currentShiftHours": 8,
+    "pastWeekHours": 43
+  },
+  {
+    "name": "Anjali",
+    "currentShiftHours": 6,
+    "pastWeekHours": 37
+  },
+  {
+    "name": "Manoj",
+    "currentShiftHours": 6,
+    "pastWeekHours": 37
+  },
+  {
+    "name": "Pooja",
+    "currentShiftHours": 6,
+    "pastWeekHours": 37
+  }
+]
