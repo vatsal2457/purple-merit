@@ -107,12 +107,12 @@ const Drivers = () => {
     {
       key: 'totalWeekHours',
       label: 'Total Week Hours',
-      render: (value: number, row: Driver) => (row.pastWeekHours + row.currentShiftHours).toFixed(1),
+      render: (_value: number, row: Driver) => (row.pastWeekHours + row.currentShiftHours).toFixed(1),
     },
     {
       key: 'isFatigued',
       label: 'Status',
-      render: (value: boolean, row: Driver) => (
+      render: (_value: boolean, row: Driver) => (
         <span
           className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
             row.currentShiftHours > 8

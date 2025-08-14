@@ -125,12 +125,12 @@ const Orders = () => {
     {
       key: 'deliveryTimestamp',
       label: 'Delivery Time',
-      render: (value: string) => new Date(value).toLocaleString(),
+      render: (value: string,row: Order) => new Date(value).toLocaleString(),
     },
     {
       key: 'deliveryStatus',
       label: 'Status',
-      render: (value: string, row: Order) => {
+      render: (value: boolean, row: Order) => {
         if (row.isDelivered) {
           const isOnTime = new Date(row.actualDeliveryTime || '') <= new Date(row.deliveryTimestamp)
           return (

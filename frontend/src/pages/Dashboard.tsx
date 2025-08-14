@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { simulationAPI } from '../services/api'
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts'
-import { TrendingUp, TrendingDown, Clock, DollarSign, Users, Package, MapPin } from 'lucide-react'
+import { Clock, Users, Package, MapPin } from 'lucide-react'
 import toast from 'react-hot-toast'
 
 interface DashboardData {

@@ -1,28 +1,28 @@
-import { useLocation } from 'react-router-dom'
+// import { useLocation } from 'react-router-dom'
 import { useAuth } from '../contexts/AuthContext'
 import { Bell, Search } from 'lucide-react'
 
 const Header = () => {
-  const location = useLocation()
+  // const location = useLocation()
   const { user } = useAuth()
 
-  const getPageTitle = () => {
-    const path = location.pathname
-    switch (path) {
-      case '/dashboard':
-        return 'Dashboard'
-      case '/simulation':
-        return 'Simulation'
-      case '/drivers':
-        return 'Drivers'
-      case '/routes':
-        return 'Routes'
-      case '/orders':
-        return 'Orders'
-      default:
-        return 'Dashboard'
-    }
-  }
+  // const getPageTitle = () => {
+  //   const path = location.pathname
+  //   switch (path) {
+  //     case '/dashboard':
+  //       return 'Dashboard'
+  //     case '/simulation':
+  //       return 'Simulation'
+  //     case '/drivers':
+  //       return 'Drivers'
+  //     case '/routes':
+  //       return 'Routes'
+  //     case '/orders':
+  //       return 'Orders'
+  //     default:
+  //       return 'Dashboard'
+  //   }
+  // }
 
   return (
     <header className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-x-4 border-b border-gray-200 bg-white px-4 shadow-sm sm:gap-x-6 sm:px-6 lg:px-8">

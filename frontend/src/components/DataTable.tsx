@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Edit, Trash2, Plus, Search, Filter } from 'lucide-react'
+import { Edit, Trash2, Plus, Search} from 'lucide-react'
 
 interface Column {
   key: string

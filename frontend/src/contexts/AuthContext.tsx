@@ -49,11 +49,10 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     try {
       const response = await api.get('/auth/me')
       setUser(response.data.data.user)
-    } catch (error) {
-      if (error.code === "ERR_NETWORK") {
-        console.error('Network error: Unable to reach backend API. Is the server running?')
-      } else {
-        console.error('Failed to fetch user:', error)
+    }  catch (error: any) {
+      console.error('Failed to fetch user:', error)
+      if (error?.code === "ERR_NETWORK") {
+        // handle network error
       }
       localStorage.removeItem('token')
       delete api.defaults.headers.common['Authorization']

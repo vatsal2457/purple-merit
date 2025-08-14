@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { simulationAPI } from '../services/api'
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
-import { Play, RefreshCw, TrendingUp, Clock, DollarSign, Users, Package } from 'lucide-react'
+import { Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
+import { Play, RefreshCw } from 'lucide-react'
 import toast from 'react-hot-toast'
 
 interface SimulationForm {
